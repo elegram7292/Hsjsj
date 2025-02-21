@@ -14,9 +14,9 @@ attacked_ips = set()
 async def start(update: Update, context: CallbackContext):
     chat_id = update.effective_chat.id
     message = (
-        "*🔥 Welcome to the battlefield! 🔥*\n\n"
+        "*🔥 Welcome to the battlefield Made By MR.ABHI! 🔥*\n\n"
         "*Use /attack <ip> <port> <duration>*\n"
-        "*Let the war begin! ⚔️💥*"
+        "*Lets Fuck The all Fcking Enemies! ⚔️💥*"
     )
     await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
 
