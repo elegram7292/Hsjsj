@@ -38,7 +38,7 @@ async def run_attack(chat_id, ip, port, duration, context):
         await context.bot.send_message(chat_id=chat_id, text=f"*⚠️ Error during the attack: {str(e)}*", parse_mode='Markdown')
 
     finally:
-        await context.bot.send_message(chat_id=chat_id, text="*✅ Attack Completed! ✅*\n*Thank you for using our service!*", parse_mode='Markdown')
+        await context.bot.send_message(chat_id=chat_id, text="*✅ ohhh Fckk!!!! ✅*\n*Ohh Fck!!! its Too Soft Pussy Babe 😘*", parse_mode='Markdown')
 
 async def attack(update: Update, context: CallbackContext):
     chat_id = update.effective_chat.id
@@ -62,10 +62,10 @@ async def attack(update: Update, context: CallbackContext):
     attacked_ips.add(ip)  # Store attacked IP
 
     await context.bot.send_message(chat_id=chat_id, text=( 
-        f"*⚔️ Attack Launched! ⚔️*\n"
+        f"*⚔️ Attack Launched Successfully! ⚔️*\n"
         f"*🎯 Target: {ip}:{port}*\n"
         f"*🕒 Duration: {duration} seconds*\n"
-        f"*🔥 Let's Fuck The all Fcking enemies ! 💥*"
+        f"*🔥 Let's Fuck The all Fcking enemies Made By MR.ABHI! 💥*"
     ), parse_mode='Markdown')
 
     asyncio.create_task(run_attack(chat_id, ip, port, duration, context))
